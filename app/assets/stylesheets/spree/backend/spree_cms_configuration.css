@@ -2,3 +2,101 @@
 Placeholder manifest file.
 the installer will append this file to the app vendored assets here: 'vendor/assets/stylesheets/spree/backend/all.css'
 */
+
+#header {
+  background-color: rgb(205, 205, 205);
+  padding: 5px 0;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #393333;
+}
+
+#admin-menu {
+  background-color: #5B5B5B;
+}
+
+input[type="text"], 
+.select2-search input, 
+.select2-container-multi 
+.select2-choices, 
+input[type="password"], 
+input[type="email"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="time"], 
+input[type="url"], 
+input[type="number"], 
+input[type="tel"], 
+textarea
+{
+  border: 1px solid #8C8C8C;
+  color: #003C77;
+} 
+
+  a {
+    color: #2A7AC8;
+    text-decoration: none;
+    line-height: inherit;
+  }
+
+  a:visited {
+    color: #2A7AC8;
+  }
+
+  a:hover, #admin-menu li.selected a {
+    color: #1D1D1D;
+  }
+
+  fieldset label {
+    color: #505050;
+  }
+
+  #sub-menu {
+    background-color: #799916;
+    padding-bottom: 0;
+  }
+
+  input[type="submit"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+    background-color: #3A3A3A;
+    color: white;
+  }
+
+  input[type="submit"], input[type="button"], button, .button {
+    background-color: #608895;
+  }
+
+  table thead th {
+    padding: 10px;
+    border-top: 1px solid #cee1f4;
+    border-bottom: none;
+    background-color: #5B5B5B;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: 600;
+    color: white;
+  }
+
+  table tbody tr:hover td {
+    background-color: #DDFD78;
+  }
+
+  #sidebar .sidebar-title {
+    color: #5B5B5B;
+  }
+
+  fieldset legend {
+    background-color: white;
+    color: #608895;
+  }
+
+  dl {
+    color: #0F4277;
+  }
+
+  .select2-container .select2-choice {
+    background-color: #5B5B5B;
+  }
